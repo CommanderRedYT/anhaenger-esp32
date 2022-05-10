@@ -1,7 +1,9 @@
 #pragma once
 
-// 3rdparty lib includes
+// system includes
 #include <Arduino.h>
+
+// 3rdparty lib includes
 #include <FastLED.h>
 
 // local includes

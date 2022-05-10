@@ -9,7 +9,9 @@
 
 void DefaultAnimation() {
     EVERY_N_SECONDS(1) {
-        led_magic.fill(CRGB::Red, 0, LED_COUNT / RING_COUNT / 2);
-        led_magic.fill(CRGB::White, LED_COUNT / RING_COUNT / 2, LED_COUNT / RING_COUNT);
+        led_magic.fillRing(CRGB::Red, 0);
+        led_magic.fillRing(CRGB::Red, 1);
+        led_magic.fillRing(CRGB::White, 2);
+        led_magic.fillRing(CRGB::White, 3);
     }
 }

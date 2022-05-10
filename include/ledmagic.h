@@ -1,7 +1,9 @@
 #pragma once
 
-// 3rdparty lib includes
+// system includes
 #include <Arduino.h>
+
+// 3rdparty lib includes
 #include <FastLED.h>
 
 template<size_t NUM_LEDS, size_t NUM_RINGS, CRGB(&LEDS)[NUM_LEDS]>
